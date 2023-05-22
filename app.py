@@ -36,7 +36,7 @@ def predict():
         msg="Congratulation!! You don't have diabetes"
 
     else:
-        msg="Sorry!! You have disbetes. Be careful."
+        msg="Sorry!! You have diabetes. Be careful."
 
     return render_template("index.html",prediction=pred,st=msg)
 
